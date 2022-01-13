@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function UserProfile(props) {
     return (
@@ -8,7 +9,7 @@ function UserProfile(props) {
           <div>Username: {props.userName}</div>
           <div>Member Since: {props.memberSince}</div>
 
-          <Link to="/Home">Home</Link>
+          <Link to="/">Home</Link>
 
         </div>
     );
