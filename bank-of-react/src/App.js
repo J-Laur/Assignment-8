@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import UserProfile from './components/UserProfile';
 import LogIn from "./components/Login";
+import Credits from "./components/Credits";
+import Debit from "./components/Debits";
     
     function App() {
 

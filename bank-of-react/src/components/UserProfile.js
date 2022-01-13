@@ -9,8 +9,11 @@ function UserProfile(props) {
           <div>Username: {props.userName}</div>
           <div>Member Since: {props.memberSince}</div>
 
+          <div>
           <Link to="/">Home</Link>
-
+          <Link to="/Debits">Debits</Link>
+          <Link to="/Credits">Credits</Link>
+          </div>
         </div>
     );
   }
