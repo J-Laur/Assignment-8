@@ -38,7 +38,7 @@ function LogIn(props) {
                     <label htmlFor="password">Password</label>
                     <input type="password" name="password" />
                 </div>
-                <button>Log In</button>
+                <button class="btn btn-secondary">Log In</button>
             </form>
         </div>
     )

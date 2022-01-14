@@ -69,7 +69,7 @@ export default class Credits extends Component {
                 <input type="text" id="description" name="description" placeholder="Venmo"></input><br/>
                 <label htmlFor="amount">Amount: </label>
                 <input type="text" id="amount" name="amount" placeholder="$90.45"></input><br/>
-                <button onClick={this.handleNewCredit}>Submit</button>
+                <button class="btn btn-secondary" onClick={this.handleNewCredit}>Submit</button>
               </>
 
               {this.state.credits.map((transaction, index) => (

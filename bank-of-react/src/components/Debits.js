@@ -68,7 +68,7 @@ export default class Debits extends Component {
                 <input type="text" id="description" name="description" placeholder="Groceries"></input><br/>
                 <label htmlFor="amount">Amount: </label>
                 <input type="text" id="amount" name="amount" placeholder="$160.32"></input><br/>
-                <button onClick={this.handleNewDebit}>Submit</button>
+                <button class="btn btn-secondary" onClick={this.handleNewDebit}>Submit</button>
               </>
 
               {this.state.debits.map((transaction, index) => (

@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
               <h1>Bank of React</h1>
 
               <Link to="/userProfile">User Profile</Link>
+              <br></br>
               <Link to="/Login">Log In</Link>
 
               <AccountBalance accountBalance={props.accountBalance}/>
