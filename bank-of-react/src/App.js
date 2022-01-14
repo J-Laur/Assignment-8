@@ -4,7 +4,7 @@ import Home from './components/Home';
 import UserProfile from './components/UserProfile';
 import LogIn from "./components/Login";
 import Credits from "./components/Credits";
-import Debit from "./components/Debits";
+import Debits from "./components/Debits";
     
     function App() {
 
@@ -25,6 +25,9 @@ import Debit from "./components/Debits";
               <Route path="/" element={<Home accountBalance={accountBalance}/>}/>
               <Route path="/UserProfile" element={<UserProfile userName={currentUser.userName} memberSince={currentUser.memberSince} />}/>
               <Route path="/Login" element={<LogIn user={currentUser} mockLogIn={mockLogIn}/>}/>
+              <Route path="/Credits" element={<Credits accCredit={Credits}/>}/>
+              <Route path="/Debits" element={<Debits accDebits={Debits}/>}/>
+             
            </Routes>
          </BrowserRouter>
        );

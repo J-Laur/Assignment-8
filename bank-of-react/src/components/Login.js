@@ -32,7 +32,7 @@ function LogIn(props) {
             <form onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="userName">User Name</label>
-                    <input type="text" name="userName" onChange={handleChange} value={user.userName}/>
+                    <input name="text" name="userName" onChange={handleChange} value={user.userName}/>
                 </div>
                 <div>
                     <label htmlFor="password">Password</label>

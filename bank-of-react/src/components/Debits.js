@@ -35,7 +35,7 @@ export default class Debits extends Component {
     name = name.split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ") 
     let amount = document.getElementById("amount").value;
     let date = Date.now();
-    let id = ((Math.random()*99999).toString());
+    let id = ((Math.random()*9898).toString());
     let newDebit = {
         amount: amount,
         description: name,

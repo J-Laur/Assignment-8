@@ -11,7 +11,11 @@ function UserProfile(props) {
 
           <div>
           <Link to="/">Home</Link>
+          </div>
+          <div>
           <Link to="/Debits">Debits</Link>
+          </div>
+          <div>
           <Link to="/Credits">Credits</Link>
           </div>
         </div>
